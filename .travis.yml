@@ -10,5 +10,5 @@ jobs:
     - stage: Test
       script: ./mvnw clean test
 
-notifications:
+notification:
   email: info@techprimers.com
